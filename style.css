@@ -1,0 +1,229 @@
+header {
+    position: relative;
+    height: 350px;
+    width: 1200px;
+    margin: auto;
+    border-top: solid black 7px;
+    text-align: left;
+    background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: initial;
+    background-size: cover;
+    font-family: 'Abril Fatface', cursive;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 0;
+    left: 285px;
+}
+
+header h2 {
+    font-size: 35px;
+    font-weight: 100;
+    position: absolute;
+    left: 285px;
+    bottom: 75px;
+}
+
+.intro {
+    margin-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 650px;
+    text-align: justify;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+
+main {
+    padding: 0 200px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.quote1 {
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 150px;
+    background: #484848;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote1::before {
+    content: '"';
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 90px;
+}
+
+.achi {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 650px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.achi h3 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.achi h4 {
+    margin-bottom: 30px;
+}
+
+.achi p {
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.quote2 {
+    display: flex;
+    position: relative;
+    width: 640px;
+    height: 200px;
+    background: #484848;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.quote2:before {
+    content: '"';
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 90px;
+}
+
+.experience {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 650px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.experience h3 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.experience h4 {
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.experience h5 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.quote3 {
+    display: flex;
+    position: relative;
+    width: 640px;
+    height: 200px;
+    background: #484848;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.quote3::before {
+    content: '"';
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 90px;
+}
+
+.formal {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 650px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.formal h3 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.formal h4 {
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.formal h5 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.line {
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 4px;
+    width: 700px;
+}
+
+.personal {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 650px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.personal h3 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
